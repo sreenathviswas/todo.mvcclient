@@ -18,11 +18,11 @@
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.1.0" />
   </ItemGroup>
 
-  <ItemGroup>
+  <!-- <ItemGroup>
     <ProjectReference Include="..\Microsoft.Identity.Web\Microsoft.Identity.Web.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
-  </ItemGroup>
+  </ItemGroup> -->
   <ItemGroup>
     <Compile Remove="Controllers\ToDoController.cs" />
     <Compile Remove="ToDo.MvcClientApp.Test\ToDoHomeControllerTest.cs" />
@@ -38,5 +38,10 @@
   <ItemGroup>
     <Content Remove="ToDo.MvcClientApp.Test\obj\ToDo.MvcClientApp.Test.csproj.nuget.dgspec.json" />
     <Content Remove="ToDo.MvcClientApp.Test\obj\project.assets.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Microsoft.Identity.Web\Microsoft.Identity.Web.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
 </Project>
