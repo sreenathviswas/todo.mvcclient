@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-ToDo.MvcClientApp-44F5D1FE-B142-4BC2-92E9-673B634E0D18</UserSecretsId>
+    <WebProject_DirectoryAccessLevelKey>0</WebProject_DirectoryAccessLevelKey>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.AzureAD.UI" Version="3.1.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Microsoft.Identity.Web\Microsoft.Identity.Web.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Controllers\ToDoController.cs" />
+    <Compile Remove="ToDo.MvcClientApp.Test\ToDoHomeControllerTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="ToDo.MvcClientApp.Test\obj\ToDo.MvcClientApp.Test.csproj.nuget.g.props" />
+    <None Remove="ToDo.MvcClientApp.Test\obj\ToDo.MvcClientApp.Test.csproj.nuget.g.targets" />
+    <None Remove="ToDo.MvcClientApp.Test\obj\ToDo.MvcClientApp.Test.csproj.nuget.cache" />
+    <None Remove="ToDo.MvcClientApp.Test\obj\Debug\netcoreapp3.1\ToDo.MvcClientApp.Test.csprojAssemblyReference.cache" />
+    <None Remove="ToDo.MvcClientApp.Test\obj\Debug\netcoreapp3.1\ToDo.MvcClientApp.Test.assets.cache" />
+    <None Remove="ToDo.MvcClientApp.Test\obj\Debug\netcoreapp3.1\ToDo.MvcClientApp.Test.csproj.FileListAbsolute.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="ToDo.MvcClientApp.Test\obj\ToDo.MvcClientApp.Test.csproj.nuget.dgspec.json" />
+    <Content Remove="ToDo.MvcClientApp.Test\obj\project.assets.json" />
+  </ItemGroup>
+</Project>

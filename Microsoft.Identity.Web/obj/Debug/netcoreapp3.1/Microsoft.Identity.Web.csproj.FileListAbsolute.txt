@@ -1,0 +1,16 @@
+/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/bin/Debug/netcoreapp3.1/Microsoft.Identity.Web.deps.json
+/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/bin/Debug/netcoreapp3.1/Microsoft.Identity.Web.dll
+/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/bin/Debug/netcoreapp3.1/Microsoft.Identity.Web.pdb
+/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/obj/Debug/netcoreapp3.1/Microsoft.Identity.Web.csprojAssemblyReference.cache
+/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/obj/Debug/netcoreapp3.1/Microsoft.Identity.Web.AssemblyInfoInputs.cache
+/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/obj/Debug/netcoreapp3.1/Microsoft.Identity.Web.AssemblyInfo.cs
+/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/obj/Debug/netcoreapp3.1/Microsoft.Identity.Web.dll
+/Users/sreenath/Projects/ireland/todo/todo.server/Microsoft.Identity.Web/obj/Debug/netcoreapp3.1/Microsoft.Identity.Web.pdb
+/Users/sreenath/Projects/ireland/todo/todo.mvcclient/Microsoft.Identity.Web/bin/Debug/netcoreapp3.1/Microsoft.Identity.Web.deps.json
+/Users/sreenath/Projects/ireland/todo/todo.mvcclient/Microsoft.Identity.Web/bin/Debug/netcoreapp3.1/Microsoft.Identity.Web.dll
+/Users/sreenath/Projects/ireland/todo/todo.mvcclient/Microsoft.Identity.Web/bin/Debug/netcoreapp3.1/Microsoft.Identity.Web.pdb
+/Users/sreenath/Projects/ireland/todo/todo.mvcclient/Microsoft.Identity.Web/obj/Debug/netcoreapp3.1/Microsoft.Identity.Web.AssemblyInfoInputs.cache
+/Users/sreenath/Projects/ireland/todo/todo.mvcclient/Microsoft.Identity.Web/obj/Debug/netcoreapp3.1/Microsoft.Identity.Web.AssemblyInfo.cs
+/Users/sreenath/Projects/ireland/todo/todo.mvcclient/Microsoft.Identity.Web/obj/Debug/netcoreapp3.1/Microsoft.Identity.Web.dll
+/Users/sreenath/Projects/ireland/todo/todo.mvcclient/Microsoft.Identity.Web/obj/Debug/netcoreapp3.1/Microsoft.Identity.Web.pdb
+/Users/sreenath/Projects/ireland/todo/todo.mvcclient/Microsoft.Identity.Web/obj/Debug/netcoreapp3.1/Microsoft.Identity.Web.csprojAssemblyReference.cache

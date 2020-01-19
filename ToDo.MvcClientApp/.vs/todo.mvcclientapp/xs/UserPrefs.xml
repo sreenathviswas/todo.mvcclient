@@ -1,0 +1,51 @@
+﻿<Properties StartupConfiguration="{22E1A9C0-C7B6-4579-B766-9C3EBFC8DF1D}|Default">
+  <MonoDevelop.Ide.ItemProperties.ToDo.MvcClientApp.Test FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ToDo.MvcClientApp.Test/ToDoHomeControllerTest.cs">
+    <Files>
+      <File FileName="Views/Home/Create.cshtml" Line="18" Column="19" />
+      <File FileName="Views/Home/Delete.cshtml" Line="19" Column="14" />
+      <File FileName="Views/Home/Details.cshtml" Line="22" Column="13" />
+      <File FileName="Views/Home/Edit.cshtml" Line="16" Column="15" />
+      <File FileName="Views/Home/Index.cshtml" Line="20" Column="18" />
+      <File FileName="../../../../../../../usr/local/share/dotnet/sdk/3.1.100/Sdks/Microsoft.NET.Sdk.Razor/build/netstandard2.0/Microsoft.NET.Sdk.Razor.Compilation.targets" Line="114" Column="5" />
+      <File FileName="Controllers/HomeController.cs" Line="22" Column="32" />
+      <File FileName="Services/TodoListService.cs" Line="86" Column="59" />
+      <File FileName="appsettings.json" Line="14" Column="51" />
+      <File FileName="Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="Views/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Startup.cs" Line="40" Column="50" />
+      <File FileName="Views/Shared/_Layout.cshtml" Line="38" Column="31" />
+      <File FileName="Controllers/ToDoController.cs" Line="27" Column="23" />
+      <File FileName="ToDo.MvcClientApp.Test/UnitTest1.cs" Line="11" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ToDo.MvcClientApp" expanded="True">
+            <Node name="ToDo.MvcClientApp" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="ToDo.MvcClientApp.Test" expanded="True" selected="True">
+              <Node name="Dependencies" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="ToDo.MvcClientApp" expanded="True">
+            <Node name="ToDo.MvcClientApp.Test" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ToDo.MvcClientApp PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

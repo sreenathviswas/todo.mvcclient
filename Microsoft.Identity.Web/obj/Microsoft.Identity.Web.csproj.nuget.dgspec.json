@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sreenath/Projects/ireland/todo/todo.mvcclient/Microsoft.Identity.Web/Microsoft.Identity.Web.csproj": {}
+  },
+  "projects": {
+    "/Users/sreenath/Projects/ireland/todo/todo.mvcclient/Microsoft.Identity.Web/Microsoft.Identity.Web.csproj": {
+      "version": "1.0.0-localbuild",
+      "restore": {
+        "projectUniqueName": "/Users/sreenath/Projects/ireland/todo/todo.mvcclient/Microsoft.Identity.Web/Microsoft.Identity.Web.csproj",
+        "projectName": "Microsoft.Identity.Web",
+        "projectPath": "/Users/sreenath/Projects/ireland/todo/todo.mvcclient/Microsoft.Identity.Web/Microsoft.Identity.Web.csproj",
+        "packagesPath": "/Users/sreenath/.nuget/packages/",
+        "outputPath": "/Users/sreenath/Projects/ireland/todo/todo.mvcclient/Microsoft.Identity.Web/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/sreenath/Projects/ireland/todo/todo.mvcclient/Microsoft.Identity.Web/NuGet.Config",
+          "/Users/sreenath/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.AzureAD.UI": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication.AzureADB2C.UI": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Identity.Client": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
