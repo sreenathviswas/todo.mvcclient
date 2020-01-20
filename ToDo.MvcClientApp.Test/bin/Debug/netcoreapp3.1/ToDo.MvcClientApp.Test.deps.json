@@ -15,7 +15,8 @@
           "Microsoft.NET.Test.Sdk": "16.2.0",
           "Moq": "4.13.1",
           "ToDo.MvcClientApp": "1.0.0",
-          "coverlet.collector": "1.2.0"
+          "coverlet.collector": "1.2.0",
+          "coverlet.msbuild": "2.8.0"
         },
         "runtime": {
           "ToDo.MvcClientApp.Test.dll": {}
@@ -42,6 +43,7 @@
         }
       },
       "coverlet.collector/1.2.0": {},
+      "coverlet.msbuild/2.8.0": {},
       "FluentAssertions/5.10.0": {
         "dependencies": {
           "System.Configuration.ConfigurationManager": "4.5.0"
@@ -1150,7 +1152,7 @@
           "runtimes/win-arm64/native/sni.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "4.6.25512.1"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -1159,7 +1161,7 @@
           "runtimes/win-x64/native/sni.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "4.6.25512.1"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -1168,7 +1170,7 @@
           "runtimes/win-x86/native/sni.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "4.6.25512.1"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -2251,6 +2253,13 @@
       "sha512": "sha512-ZB+EGXsVBIn8cew7D3S2c+rgIlokKv1dSwsXEoiFQaNXF/BSxp9Rlfz/jV1ehSWH5XpLitfRxFNW3ok7uPDOXA==",
       "path": "coverlet.collector/1.2.0",
       "hashPath": "coverlet.collector.1.2.0.nupkg.sha512"
+    },
+    "coverlet.msbuild/2.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W2XppBR6AG5nBZu5XoCT0N0Xv05FSeXyS0gVzlNtddrjXq8iLKOmfedLDRitPItyzIppPdqGQMblcI6l7Y5lVQ==",
+      "path": "coverlet.msbuild/2.8.0",
+      "hashPath": "coverlet.msbuild.2.8.0.nupkg.sha512"
     },
     "FluentAssertions/5.10.0": {
       "type": "package",

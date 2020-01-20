@@ -60,6 +60,35 @@ namespace ToDo.MvcClientApp.Test
         }
 
         [TestMethod]
+        public async Task todo_add_throws_exception_when_httpstatus_is_not_ok()
+        {
+            var fakeHttpMessageHandler = new Mock<FakeHttpMessageHandler> { CallBase = true };
+
+            fakeHttpMessageHandler.Setup(x => x.Send(It.IsAny<HttpRequestMessage>()))
+                                  .Returns(new HttpResponseMessage(HttpStatusCode.BadRequest)
+                                  {
+                                      Content = new StringContent("{}")
+                                  });
+
+            var httpClient = new HttpClient(fakeHttpMessageHandler.Object)
+            {
+                BaseAddress = new Uri("http://localhost:5001/"),
+            };
+
+            var service = new TodoService(_tokenAcquisition.Object, httpClient, _configuration);
+
+            try
+            {
+                var result = await service.AddAsync(new ToDo());
+                Assert.Fail("Invalid status code in the HttpResponseMessage");
+            }
+            catch (HttpRequestException)
+            {
+                
+            }
+        }
+
+        [TestMethod]
         public async Task todo_edit_returns_saved_data()
         {
             var fakeHttpMessageHandler = new Mock<FakeHttpMessageHandler> { CallBase = true };
@@ -83,6 +112,35 @@ namespace ToDo.MvcClientApp.Test
         }
 
         [TestMethod]
+        public async Task todo_edit_throws_exception_when_httpstatus_is_not_ok()
+        {
+            var fakeHttpMessageHandler = new Mock<FakeHttpMessageHandler> { CallBase = true };
+
+            fakeHttpMessageHandler.Setup(x => x.Send(It.IsAny<HttpRequestMessage>()))
+                                  .Returns(new HttpResponseMessage(HttpStatusCode.BadRequest)
+                                  {
+                                      Content = new StringContent("{}")
+                                  });
+
+            var httpClient = new HttpClient(fakeHttpMessageHandler.Object)
+            {
+                BaseAddress = new Uri("http://localhost:5001/"),
+            };
+
+            var service = new TodoService(_tokenAcquisition.Object, httpClient, _configuration);
+
+            try
+            {
+                var result = await service.EditAsync(new ToDo());
+                Assert.Fail("Invalid status code in the HttpResponseMessage");
+            }
+            catch (HttpRequestException)
+            {
+
+            }
+        }
+
+        [TestMethod]
         public async Task todo_delete_removes_record()
         {
             var fakeHttpMessageHandler = new Mock<FakeHttpMessageHandler> { CallBase = true };
@@ -101,6 +159,35 @@ namespace ToDo.MvcClientApp.Test
             var service = new TodoService(_tokenAcquisition.Object, httpClient, _configuration);
 
             await service.DeleteAsync(1);
+        }
+
+        [TestMethod]
+        public async Task todo_delete_throws_exception_when_httpstatus_is_not_ok()
+        {
+            var fakeHttpMessageHandler = new Mock<FakeHttpMessageHandler> { CallBase = true };
+
+            fakeHttpMessageHandler.Setup(x => x.Send(It.IsAny<HttpRequestMessage>()))
+                                  .Returns(new HttpResponseMessage(HttpStatusCode.BadRequest)
+                                  {
+                                      Content = new StringContent("{}")
+                                  });
+
+            var httpClient = new HttpClient(fakeHttpMessageHandler.Object)
+            {
+                BaseAddress = new Uri("http://localhost:5001/"),
+            };
+
+            var service = new TodoService(_tokenAcquisition.Object, httpClient, _configuration);
+
+            try
+            {
+                await service.DeleteAsync(1);
+                Assert.Fail("Invalid status code in the HttpResponseMessage");
+            }
+            catch (HttpRequestException)
+            {
+
+            }
         }
 
         [TestMethod]
@@ -127,6 +214,35 @@ namespace ToDo.MvcClientApp.Test
         }
 
         [TestMethod]
+        public async Task todo_get_throws_exception_when_httpstatus_is_not_ok()
+        {
+            var fakeHttpMessageHandler = new Mock<FakeHttpMessageHandler> { CallBase = true };
+
+            fakeHttpMessageHandler.Setup(x => x.Send(It.IsAny<HttpRequestMessage>()))
+                                  .Returns(new HttpResponseMessage(HttpStatusCode.BadRequest)
+                                  {
+                                      Content = new StringContent("{}")
+                                  });
+
+            var httpClient = new HttpClient(fakeHttpMessageHandler.Object)
+            {
+                BaseAddress = new Uri("http://localhost:5001/"),
+            };
+
+            var service = new TodoService(_tokenAcquisition.Object, httpClient, _configuration);
+
+            try
+            {
+                await service.GetAsync(1);
+                Assert.Fail("Invalid status code in the HttpResponseMessage");
+            }
+            catch (HttpRequestException)
+            {
+
+            }
+        }
+
+        [TestMethod]
         public async Task todo_get_all_returns_all_data()
         {
             var fakeHttpMessageHandler = new Mock<FakeHttpMessageHandler> { CallBase = true };
@@ -147,6 +263,35 @@ namespace ToDo.MvcClientApp.Test
             var result = await service.GetAsync();
 
             Assert.IsNotNull(result);
+        }
+
+        [TestMethod]
+        public async Task todo_get_all_throws_exception_when_httpstatus_is_not_ok()
+        {
+            var fakeHttpMessageHandler = new Mock<FakeHttpMessageHandler> { CallBase = true };
+
+            fakeHttpMessageHandler.Setup(x => x.Send(It.IsAny<HttpRequestMessage>()))
+                                  .Returns(new HttpResponseMessage(HttpStatusCode.BadRequest)
+                                  {
+                                      Content = new StringContent("{}")
+                                  });
+
+            var httpClient = new HttpClient(fakeHttpMessageHandler.Object)
+            {
+                BaseAddress = new Uri("http://localhost:5001/"),
+            };
+
+            var service = new TodoService(_tokenAcquisition.Object, httpClient, _configuration);
+
+            try
+            {
+                await service.GetAsync();
+                Assert.Fail("Invalid status code in the HttpResponseMessage");
+            }
+            catch (HttpRequestException)
+            {
+
+            }
         }
     }
 }

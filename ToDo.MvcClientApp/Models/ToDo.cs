@@ -1,6 +1,9 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
+
 namespace ToDo.MvcClientApp
 {
+    [ExcludeFromCodeCoverage]
     public class ToDo
     {
         public int Id { get; set; }

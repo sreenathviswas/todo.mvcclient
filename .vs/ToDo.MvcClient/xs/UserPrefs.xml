@@ -1,14 +1,15 @@
 ﻿<Properties StartupConfiguration="{16ECBA34-8B51-4F3A-9B83-EDE89910EA75}|Default">
   <MonoDevelop.Ide.ItemProperties.ToDo.MvcClientApp.Test PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ToDo.MvcClientApp.Test/appsettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ToDo.MvcClientApp/Startup.cs">
     <Files>
-      <File FileName="ToDo.MvcClientApp/Services/ToDoService.cs" Line="52" Column="1" />
-      <File FileName="ToDo.MvcClientApp.Test/ToDoServiceTest.cs" />
-      <File FileName="ToDo.MvcClientApp.Test/ToDoHomeControllerTest.cs" />
-      <File FileName="ToDo.MvcClientApp.Test/FakeHttpMessageHandler.cs" />
-      <File FileName="ToDo.MvcClientApp/Controllers/HomeController.cs" />
-      <File FileName="ToDo.MvcClientApp/appsettings.json" Line="3" Column="52" />
-      <File FileName="ToDo.MvcClientApp.Test/appsettings.json" Line="1" Column="1" />
+      <File FileName="ToDo.MvcClientApp/Services/ToDoService.cs" Line="59" Column="92" />
+      <File FileName="ToDo.MvcClientApp.Test/ToDoServiceTest.cs" Line="288" Column="40" />
+      <File FileName="ToDo.MvcClientApp/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="ToDo.MvcClientApp.Test/ToDoHomeControllerTest.cs" Line="173" Column="63" />
+      <File FileName="ToDo.MvcClientApp/Models/ErrorViewModel.cs" Line="6" Column="30" />
+      <File FileName="ToDo.MvcClientApp/Models/ToDo.cs" Line="6" Column="30" />
+      <File FileName="ToDo.MvcClientApp/Program.cs" Line="13" Column="30" />
+      <File FileName="ToDo.MvcClientApp/Startup.cs" Line="23" Column="30" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,11 +17,18 @@
           <Node name="ToDo.MvcClient" expanded="True">
             <Node name="ToDo.MvcClientApp" expanded="True">
               <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="Services" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
             </Node>
-            <Node name="ToDo.MvcClientApp.Test" expanded="True">
-              <Node name="appsettings.json" selected="True" />
-            </Node>
+            <Node name="ToDo.MvcClientApp.Test" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="ToDo.MvcClient" expanded="True">
+            <Node name="ToDo.MvcClientApp.Test" selected="True" />
           </Node>
         </State>
       </Pad>

@@ -18,7 +18,7 @@
         ],
         "configFilePaths": [
           "/Users/sreenath/Projects/ireland/todo/todo.mvcclient/Microsoft.Identity.Web/NuGet.Config",
-          "/Users/sreenath/.config/NuGet/NuGet.Config"
+          "/Users/sreenath/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -89,7 +89,7 @@
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/sreenath/.config/NuGet/NuGet.Config"
+          "/Users/sreenath/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -143,6 +143,12 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[1.2.0, )"
+            },
+            "coverlet.msbuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.0, )"
             }
           },
           "imports": [
@@ -177,7 +183,7 @@
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/sreenath/.config/NuGet/NuGet.Config"
+          "/Users/sreenath/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
